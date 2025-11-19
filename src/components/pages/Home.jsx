@@ -9,6 +9,9 @@ export default function Home (props) {
         <Container display="flex">
             <h1>Home!</h1>
             <h2>This is the home page. Add an interesting background</h2>
+            <br/>
+            <h2>Featured artwork</h2>
+            <ArtCard />
         </Container>
     </div>
 }

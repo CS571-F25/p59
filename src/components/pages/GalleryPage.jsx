@@ -1,7 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import EmblaCarousel from '../Carousel/EmblaCarousel';
-import '@/css/base.css';
 import '@/css/embla.css';
 
 const OPTIONS = {}
@@ -11,7 +10,7 @@ const SLIDES = Array.from(Array(SLIDE_COUNT).keys())
 function Gallery({ images }) {
   return (
     <Container>
-        <h1>Add a carousel view here</h1>
+        <h1>This will show artworks of a certain collection</h1>
 
         <div className='carousel-wrapper'>
         <EmblaCarousel slides={SLIDES} options={OPTIONS} />
