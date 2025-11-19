@@ -2,7 +2,7 @@
  * Show image, title in thumnail format
  * raised border, hover mechanic.
  */
-import '/src/Gallery.css';
+import '@/css/Gallery.css';
 
 function ArtCard() {
   return <>
