@@ -23,13 +23,18 @@ const EmblaCarousel = (props) => {
 
   const { selectedSnap, snapCount } = useSelectedSnapDisplay(emblaApi)
 
+  function handleExpandImg(e) {
+    
+  }
+
   return (
     <section className="embla">
       <div className="embla__viewport" ref={emblaRef}>
         <div className="embla__container">
-          {slides.map((index) => (
+          {slides.map((slides, index) => (
             <div className="embla__slide" key={index}>
-              <div className="embla__slide__number">{index + 1}</div>
+              <img src={slides.img} onClick={handleExpandImg}/>
+              {console.log(slides.index)}
             </div>
           ))}
         </div>

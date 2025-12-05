@@ -11,7 +11,7 @@ export default function Home (props) {
             <h2>This is the home page. Add an interesting background</h2>
             <br/>
             <h2>Featured artwork</h2>
-            <ArtCard />
+            <ArtCard img="/p59/images/two-people-in-a-room.jpg"/>
         </Container>
     </div>
 }

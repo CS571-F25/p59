@@ -4,10 +4,10 @@
  */
 import '@/css/Gallery.css';
 
-function ArtCard() {
+function ArtCard(props) {
   return <>
     <div className="art-card">
-      <img src="/p59/images/Rooster.jpg" alt="Art Placeholder" />
+      <img src={props.img} alt={props.altText} />
       <h3>Artwork Title</h3>
     </div>
   </>
