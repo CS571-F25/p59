@@ -1,0 +1,14 @@
+.blob {
+  width: 50vw;
+  height: 50vh;
+  border-radius: 80%;
+  background-image: linear-gradient(#ffa600 10%, #ff0000);
+  filter: blur(250px);
+  transition: transform 450ms ease-out;
+  position: fixed;
+  pointer-events: none;
+  left: 0;
+  top: 0;
+  transform: translate(calc(-50% + 15px), -50%);
+  z-index: 0;
+}

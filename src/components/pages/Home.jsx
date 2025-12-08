@@ -6,13 +6,11 @@ import { Container } from 'react-bootstrap';
 export default function Home (props) {
     //top router
     return <div>
-        <Container display="flex">
-            <h1>Home!</h1>
-            <h2>This is the home page. Add an interesting background</h2>
+            <h1>Welcome to Alana's art library</h1>
+            <h2>I enjoy working with a variety of mediums, both traditional and digital. See above for different collections.</h2>
             <br/>
             <h2>Featured artwork</h2>
-            <ArtCard img="/p59/images/two-people-in-a-room.jpg"/>
-        </Container>
+            <ArtCard img="/p59/images/red-dress.jpg"/>
     </div>
 }
 

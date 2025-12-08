@@ -4,6 +4,8 @@
   margin: 0 auto;
   display: flex;
   justify-content: center;
+  padding:0%;
+  
 }
 .embla {
   /*max-width: 48rem;*/
@@ -12,6 +14,7 @@
   --slide-height: 19rem;
   --slide-spacing: 1rem;
   --slide-size: 100%;
+  
 }
 .embla__viewport {
   overflow: hidden;
@@ -96,4 +99,15 @@
   align-self: center;
   color: var(--text-low-contrast);
   font-weight: 600;
+}
+
+.gallery-container {
+  background-color: #fdfdfdc0;
+  background-image:
+    repeating-linear-gradient(to bottom,
+      transparent,
+      transparent 23px,
+      #6fa8dc 24px,
+      transparent 25px);
+
 }

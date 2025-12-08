@@ -7,18 +7,10 @@
   padding: 20px;
 }
 
-.embla {
-  overflow: hidden;
-}
-.embla__container {
-  display: flex;
-}
-.embla__slide {
-  flex: 0 0 100%;
-  min-width: 0;
-}
+/*
 .navbar {
   height: 80px;
   padding: 0 2rem;
   line-height: normal;
 }
+*/

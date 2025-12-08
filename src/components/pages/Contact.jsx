@@ -1,3 +1,10 @@
+/*
+* The contact page allows users to send a message to my inbox using EmailJS. I receive the message, their name, and their email. 
+*
+*/ 
+
+
+
 import { useRef, useState, useEffect } from "react";
 import emailjs from "@emailjs/browser";
 import { Form, Button } from "react-bootstrap";

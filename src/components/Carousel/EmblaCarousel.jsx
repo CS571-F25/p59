@@ -1,4 +1,6 @@
-import React from 'react'
+import { useState} from 'react'
+import Image from 'react-bootstrap/Image'
+import ImageModal from '../ImageModal.jsx'
 import {
   PrevButton,
   NextButton,
@@ -23,18 +25,17 @@ const EmblaCarousel = (props) => {
 
   const { selectedSnap, snapCount } = useSelectedSnapDisplay(emblaApi)
 
-  function handleExpandImg(e) {
-    
-  }
+  const [showDetails, setShowDetails] = useState(null);
 
   return (
+    <>
     <section className="embla">
       <div className="embla__viewport" ref={emblaRef}>
         <div className="embla__container">
-          {slides.map((slides, index) => (
+          {slides.map((slide, index) => (
             <div className="embla__slide" key={index}>
-              <img src={slides.img} onClick={handleExpandImg}/>
-              {console.log(slides.index)}
+              <Image src={slide.img} onClick={() => setShowDetails(slide)}/>
+              {console.log(slide.index)}
             </div>
           ))}
         </div>
@@ -52,6 +53,12 @@ const EmblaCarousel = (props) => {
         />
       </div>
     </section>
+    
+    {
+      showDetails &&
+      <ImageModal art={showDetails} onClose={() => setShowDetails(null)}/>
+    }
+    </>
   )
 }
 

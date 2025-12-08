@@ -7,17 +7,20 @@ import Layout from './components/Layout.jsx';
 import GalleryPage from './components/pages/GalleryPage.jsx';
 import ArtPages from '@/data/ArtPages.json';
 import Contact from './components/pages/Contact.jsx';
+import GradientBlob from './components/GradientBlob.jsx';
 
 function App() {
   const artData = ArtPages.collections;
   return <>
+    <GradientBlob />
+    <div className="content-wrapper">
     <HashRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
+        <Route index element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<AboutMe />} />
           {artData.map((collection) => {
-            console.log(collection.slug);
             return <Route 
               key={collection.collectionTitle} 
               path={`/gallery/${collection.slug}`} 
@@ -27,6 +30,7 @@ function App() {
           </Route>
       </Routes>
     </HashRouter>
+    </div>
   </>
 }
 
