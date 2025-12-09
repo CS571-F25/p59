@@ -8,9 +8,8 @@ import GradientBlob from './GradientBlob.jsx';
 function Layout() {
     const artData = ArtPages.collections;
     return <>
-        <Navbar expand="lg" fixed="top" className='navbar'>
+        <Navbar expand="lg" fixed="top" className='navbar' data-bs-theme="dark">
             <Container fluid>
-                <Navbar.Brand href="/p59/#/home">My Site</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">

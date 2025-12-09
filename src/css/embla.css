@@ -1,6 +1,6 @@
 .carousel-wrapper {
   width: 100%;      
-  max-width: 95vw;   
+  max-width: none;   
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -101,13 +101,13 @@
   font-weight: 600;
 }
 
-.gallery-container {
-  background-color: #fdfdfdc0;
+.carousel-bg {
+  width: 100%;
+  background: #fdfdfdc0;
   background-image:
     repeating-linear-gradient(to bottom,
       transparent,
       transparent 23px,
       #6fa8dc 24px,
       transparent 25px);
-
 }

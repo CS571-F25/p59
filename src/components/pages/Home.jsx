@@ -1,16 +1,13 @@
-import React from 'react';
-import ArtCard from '../ArtCard';
-import GalleryPage from './GalleryPage';
-import { Container } from 'react-bootstrap';
-//top navigation.. in home screen or on seperate component? see past project
+import '@/css/Home.css';
+
+
 export default function Home (props) {
     //top router
     return <div>
-            <h1>Welcome to Alana's art library</h1>
-            <h2>I enjoy working with a variety of mediums, both traditional and digital. See above for different collections.</h2>
-            <br/>
-            <h2>Featured artwork</h2>
-            <ArtCard img="/p59/images/red-dress.jpg"/>
+            <h1>
+                <img className="logo" src="/p59/images/title-high-contrast.PNG" alt="Alana's Art Library"/>
+            </h1>
+            <h2><img className="main-desc" src="/p59/images/main-desc.PNG" alt="Click above to see the work of a lifelong doodler (as well as diligent painter)." /></h2>
     </div>
 }
 

@@ -5,11 +5,25 @@
       "slug": "paintings",
       "artworks": [
         {
+          "img": "/p59/images/october.png",
+          "title": "October",
+          "description": "A landscape of an overcast farm field.",
+          "materials": "Oil paint on canvas",
+          "size": "18 x 24 inches"
+        },
+        {
           "img": "/p59/images/Rooster.jpg",
           "title": "Rooster",
           "description": "A rooster against a field background.",
           "materials": "Oil paint on canvas",
           "size": "16 x 20 inches"
+        },
+        {
+          "img": "/p59/images/two-people-in-a-room.jpg",
+          "title": "Two people in a room",
+          "description": "A painting of a student sitting in a classroom facing a lecturer. The desk, board, and lines of the room extend to the edge of the canvas at a dramatic angle. ",
+          "materials": "Oil on canvas",
+          "size": "18 x 24 inches"
         },
         {
           "img": "/p59/images/Aaron-portrait.jpg",
@@ -33,11 +47,11 @@
           "size": "18 x 24 inches"
         },
         {
-          "img": "/p59/images/two-people-in-a-room.jpg",
-          "title": "Two people in a room",
-          "description": "A painting of a student sitting in a classroom facing a lecturer. The desk, board, and lines of the room extend to the edge of the canvas at a dramatic angle. ",
-          "materials": "Oil on canvas",
-          "size": "18 x 24 inches"
+          "img": "/p59/images/watercolor-flower.jpg",
+          "title": "Late blooms",
+          "description": "A painting of a vase of blue flowers and white roses.",
+          "materials": "Watercolor on paper",
+          "size": "8 x 11 inches"
         }
       ]
     },
@@ -46,32 +60,32 @@
       "slug": "drawings",
       "artworks": [
         {
-          "img": "",
-          "title": "",
-          "description": "",
-          "materials": "",
-          "size": ""
+          "img": "/p59/images/Stairway-Charcoal.jpg",
+          "title": "Confrontation",
+          "description": "Two figures lock eyes in a stairwell-- they appear to be the same person",
+          "materials": "Charcoal on paper",
+          "size": "18 x 24 inches"
         },
         {
-          "img": "",
-          "title": "",
-          "description": "",
-          "materials": "",
-          "size": ""
+          "img": "/p59/images/IMG_7688.png",
+          "title": "Perfume Still Life",
+          "description": "A drawing of a collection of perfume bottles sitting on a desk",
+          "materials": "Charcoal on paper",
+          "size": "18 x 24 inches"
         },
         {
-          "img": "",
-          "title": "",
-          "description": "",
-          "materials": "",
-          "size": ""
+          "img": "/p59/images/IMG_7693.png",
+          "title": "Landscape",
+          "description": "A woman standing against a landscape filled with body parts and unidentified objects",
+          "materials": "Graphite on paper",
+          "size": "18 x 24 inches"
         },
         {
-          "img": "",
-          "title": "",
-          "description": "",
-          "materials": "",
-          "size": ""
+          "img": "/p59/images/IMG_7690.png",
+          "title": "Peaceful Sleep",
+          "description": "A boy asleep on a bed, while an ominous figure peers in the window. FLowers grow from the floor.",
+          "materials": "Graphite, Charcoal on paper",
+          "size": "18 x 24 inches"
         }
         
       ]
@@ -128,6 +142,48 @@
           "description": "A full body drawing of a man wearing a cropped shirt, standing against a red background",
           "materials": "Digital",
           "size": ""
+        },
+        {
+          "img": "/p59/images/hinata-portrait.png",
+          "title": "Untitled",
+          "description": "A portrait of a man with an abstract background",
+          "materials": "Digital",
+          "size": ""
+        },
+        {
+          "img": "/p59/images/olympics.png",
+          "title": "Volleyball",
+          "description": "A drawing of a man setting a volleyball above the net",
+          "materials": "Digital",
+          "size": ""
+        },
+        {
+          "img": "/p59/images/popsicles-kh.png",
+          "title": "Summer heat",
+          "description": "Two boys walking down a street eating popsicles",
+          "materials": "Digital",
+          "size": ""
+        },
+        {
+          "img": "/p59/images/sakusa-portrait.png",
+          "title": "Untitled",
+          "description": "A portrait of a black haired man looking at the viewer",
+          "materials": "Digital",
+          "size": ""
+        },
+        {
+          "img": "/p59/images/tzuyu-full.jpg",
+          "title": "Untitled",
+          "description": "A young woman smiling at the viewer on a purple background",
+          "materials": "Digital",
+          "size": ""
+        },
+        {
+          "img": "/p59/images/yuji-portrait.png",
+          "title": "Untitled",
+          "description": "Yuji from Jujutsu Kaisen posed with his hands in his pockets against a white background",
+          "materials": "Digital",
+          "size": ""
         }
       ]
     },
@@ -148,10 +204,39 @@
       "slug": "sketchbook-selections",
       "artworks": [
         {
-          "title": "",
-          "description": "",
-          "materials": "",
-          "size": ""
+          "img": "",
+          "title": "Mashup",
+          "description": "A collage featuring a boy running and another holding a gun",
+          "materials": "Ink, stickers, on paper",
+          "size": "11 x 8 inches"
+        },
+        {
+          "img": "/p59/images/IMG_7699.png",
+          "title": "Self portrait",
+          "description": "A drawing of a woman in reds, pink, and oranges",
+          "materials": "Colored pencil on paper",
+          "size": "11 x 8 inches"
+        },
+        {
+          "img": "/p59/images/IMG_7708.png",
+          "title": "Self portrait",
+          "description": "A portrait of a woman in pencil",
+          "materials": "Graphite on paper",
+          "size": "11 x 8 inches"
+        },
+        {
+          "img": "/p59/images/IMG_7710.png",
+          "title": "Untitled",
+          "description": "A collage featuring a woman looking away and a girl looking at the viewer",
+          "materials": "Collage of various magazine clippings",
+          "size": "11 x 8 inches"
+        },
+        {
+          "img": "/p59/images/IMG_7697.png",
+          "title": "My Kitchen",
+          "description": "Drawing of a kitchen",
+          "materials": "Vine charcoal on paper",
+          "size": "11 x 8 inches"
         }
       ]
     }

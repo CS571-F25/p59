@@ -8,7 +8,7 @@ const OPTIONS = {}
 function GalleryPage({collection}) {
 
   return (
-    <Container fluid className="gallery-container">
+    <Container fluid className="carousel-bg">
         <h1>{collection.collectionTitle}</h1>
         <div className='carousel-wrapper'>
         <EmblaCarousel slides={collection.artworks} options={OPTIONS} />

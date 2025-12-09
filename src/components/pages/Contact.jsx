@@ -3,8 +3,6 @@
 *
 */ 
 
-
-
 import { useRef, useState, useEffect } from "react";
 import emailjs from "@emailjs/browser";
 import { Form, Button } from "react-bootstrap";
@@ -45,24 +43,47 @@ export default function Contact() {
 
       <Form ref={formRef} onSubmit={handleSubmit}>
         <Form.Group className="mb-3">
-          <Form.Label>Your Email</Form.Label>
-          <Form.Control type="email" name="email" required />
+          <Form.Label htmlFor="email-input">Your Email</Form.Label>
+          <Form.Control
+            type="email"
+            name="email"
+            id="email-input"
+            required
+            aria-required="true"
+          />
         </Form.Group>
 
         <Form.Group className="mb-3">
-          <Form.Label>Your Name</Form.Label>
-          <Form.Control type="text" name="name" required />
+          <Form.Label htmlFor="name-input">Your Name</Form.Label>
+          <Form.Control
+            type="text"
+            name="name"
+            id="name-input"
+            required
+            aria-required="true"
+          />
         </Form.Group>
 
         <Form.Group className="mb-3">
-          <Form.Label>Your Message</Form.Label>
-          <Form.Control as="textarea" rows={6} name="message" required />
+          <Form.Label htmlFor="message-input">Your Message</Form.Label>
+          <Form.Control
+            as="textarea"
+            rows={6}
+            name="message"
+            id="message-input"
+            required
+            aria-required="true"
+          />
         </Form.Group>
 
         <Button type="submit" variant="primary">Send Message</Button>
       </Form>
 
-      {status && <p className="mt-3">{status}</p>}
+      {status && (
+        <p className="mt-3" aria-live="polite">
+          {status}
+        </p>
+      )}
     </div>
   );
 }
