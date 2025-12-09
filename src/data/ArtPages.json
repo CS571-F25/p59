@@ -1,61 +1,6 @@
 {
   "collections": [
     {
-      "collectionTitle": "Paintings",
-      "slug": "paintings",
-      "artworks": [
-        {
-          "img": "/p59/images/october.png",
-          "title": "October",
-          "description": "A landscape of an overcast farm field.",
-          "materials": "Oil paint on canvas",
-          "size": "18 x 24 inches"
-        },
-        {
-          "img": "/p59/images/Rooster.jpg",
-          "title": "Rooster",
-          "description": "A rooster against a field background.",
-          "materials": "Oil paint on canvas",
-          "size": "16 x 20 inches"
-        },
-        {
-          "img": "/p59/images/two-people-in-a-room.jpg",
-          "title": "Two people in a room",
-          "description": "A painting of a student sitting in a classroom facing a lecturer. The desk, board, and lines of the room extend to the edge of the canvas at a dramatic angle. ",
-          "materials": "Oil on canvas",
-          "size": "18 x 24 inches"
-        },
-        {
-          "img": "/p59/images/Aaron-portrait.jpg",
-          "title": "",
-          "description": "Portrait of a boy with a vibrant abstract background",
-          "materials": "Oil on canvas",
-          "size": "18 x 24 inches"
-        },
-        {
-          "img": "/p59/images/art-room.jpg",
-          "title": "The Art Room",
-          "description": "A painting of a corner of an art classroom, showing exposed brick, wood slats, canvas panels, and HVAC duct",
-          "materials": "Oil on canvas",
-          "size": "18 x 24 inches"
-        },
-        {
-          "img": "/p59/images/imaginary-bedroom.jpg",
-          "title": "Childhood Bedroom",
-          "description": "A painting of a child's bedroom with yellow walls and a purple bed. Items in the room are a fan, crayons, a face drawn on the wall, and a single lamp",
-          "materials": "Oil on canvas",
-          "size": "18 x 24 inches"
-        },
-        {
-          "img": "/p59/images/watercolor-flower.jpg",
-          "title": "Late blooms",
-          "description": "A painting of a vase of blue flowers and white roses.",
-          "materials": "Watercolor on paper",
-          "size": "8 x 11 inches"
-        }
-      ]
-    },
-    {
       "collectionTitle": "Drawings",
       "slug": "drawings",
       "artworks": [
@@ -108,17 +53,59 @@
           "materials": "Digital",
           "size": ""
         },
-        {
-          "img": "/p59/images/nayeon-portrait.jpg",
+         {
+          "img": "/p59/images/oc-full-body.jpg",
           "title": "Untitled",
-          "description": "A cartoon portrait of Im Nayeon smiling",
+          "description": "A full body drawing of a man wearing a cropped shirt, standing against a red background",
+          "materials": "Digital",
+          "size": ""
+        },
+          {
+          "img": "/p59/images/popsicles-kh.png",
+          "title": "Summer heat",
+          "description": "Two boys walking down a street eating popsicles",
+          "materials": "Digital",
+          "size": ""
+        },
+         {
+          "img": "/p59/images/rainy-day-kh.JPG",
+          "title": "Untitled",
+          "description": "Two characters smile at each other under an umbrella in the rain",
           "materials": "Digital",
           "size": ""
         },
         {
-          "img": "/p59/images/rainy-day-kh.JPG",
+          "img": "/p59/images/keys.jpg",
           "title": "Untitled",
-          "description": "Two characters smile at each other under an umbrella in the rain",
+          "description": "A man posed against a background of keyboard keys",
+          "materials": "Digital",
+          "size": ""
+        },
+         {
+          "img": "/p59/images/tzuyu-full.jpg",
+          "title": "Untitled",
+          "description": "A young woman smiling at the viewer on a purple background",
+          "materials": "Digital",
+          "size": ""
+        },
+        {
+          "img": "/p59/images/sisters.jpg",
+          "title": "Sisters",
+          "description": "Two sisters. One has her arm over the other",
+          "materials": "Digital",
+          "size": ""
+        },
+        {
+          "img": "/p59/images/sketches.jpg",
+          "title": "Untitled",
+          "description": "Several character sketches of a man",
+          "materials": "Digital",
+          "size": ""
+        },
+        {
+          "img": "/p59/images/nayeon-portrait.jpg",
+          "title": "Untitled",
+          "description": "A cartoon portrait of Im Nayeon smiling",
           "materials": "Digital",
           "size": ""
         },
@@ -137,13 +124,6 @@
           "size": ""
         },
         {
-          "img": "/p59/images/oc-full-body.jpg",
-          "title": "Untitled",
-          "description": "A full body drawing of a man wearing a cropped shirt, standing against a red background",
-          "materials": "Digital",
-          "size": ""
-        },
-        {
           "img": "/p59/images/hinata-portrait.png",
           "title": "Untitled",
           "description": "A portrait of a man with an abstract background",
@@ -158,23 +138,9 @@
           "size": ""
         },
         {
-          "img": "/p59/images/popsicles-kh.png",
-          "title": "Summer heat",
-          "description": "Two boys walking down a street eating popsicles",
-          "materials": "Digital",
-          "size": ""
-        },
-        {
           "img": "/p59/images/sakusa-portrait.png",
           "title": "Untitled",
           "description": "A portrait of a black haired man looking at the viewer",
-          "materials": "Digital",
-          "size": ""
-        },
-        {
-          "img": "/p59/images/tzuyu-full.jpg",
-          "title": "Untitled",
-          "description": "A young woman smiling at the viewer on a purple background",
           "materials": "Digital",
           "size": ""
         },
@@ -188,14 +154,112 @@
       ]
     },
     {
+      "collectionTitle": "Paintings",
+      "slug": "paintings",
+      "artworks": [
+        {
+          "img": "/p59/images/october.png",
+          "title": "October",
+          "description": "A landscape of an overcast farm field.",
+          "materials": "Oil paint on canvas",
+          "size": "18 x 24 inches"
+        },
+        {
+          "img": "/p59/images/Aaron-portrait.jpg",
+          "title": "",
+          "description": "Portrait of a boy with a vibrant abstract background",
+          "materials": "Oil on canvas",
+          "size": "18 x 24 inches"
+        },
+        {
+          "img": "/p59/images/Rooster.jpg",
+          "title": "Rooster",
+          "description": "A rooster against a field background.",
+          "materials": "Oil paint on canvas",
+          "size": "16 x 20 inches"
+        },
+         {
+          "img": "/p59/images/red-dress.jpg",
+          "title": "Red Dress",
+          "description": "A red dress in a plastic covering, hanging on a door.",
+          "materials": "Oil paint on canvas",
+          "size": "18 x 24 inches"
+        },
+        {
+          "img": "/p59/images/two-people-in-a-room.jpg",
+          "title": "Two people in a room",
+          "description": "A painting of a student sitting in a classroom facing a lecturer. The desk, board, and lines of the room extend to the edge of the canvas at a dramatic angle. ",
+          "materials": "Oil on canvas",
+          "size": "18 x 24 inches"
+        },
+        {
+          "img": "/p59/images/art-room.jpg",
+          "title": "The Art Room",
+          "description": "A painting of a corner of an art classroom, showing exposed brick, wood slats, canvas panels, and HVAC duct",
+          "materials": "Oil on canvas",
+          "size": "18 x 24 inches"
+        },
+        {
+          "img": "/p59/images/imaginary-bedroom.jpg",
+          "title": "Childhood Bedroom",
+          "description": "A painting of a child's bedroom with yellow walls and a purple bed. Items in the room are a fan, crayons, a face drawn on the wall, and a single lamp",
+          "materials": "Oil on canvas",
+          "size": "18 x 24 inches"
+        },
+        {
+          "img": "/p59/images/watercolor-flower.jpg",
+          "title": "Late blooms",
+          "description": "A painting of a vase of blue flowers and white roses.",
+          "materials": "Watercolor on paper",
+          "size": "8 x 11 inches"
+        }
+      ]
+    },
+    {
       "collectionTitle": "2022",
       "slug": "2022",
       "artworks": [
         {
-          "title": "",
-          "description": "",
-          "materials": "",
-          "size": ""
+          "img": "/p59/images/IMG_6243.jpg",
+          "title": "Twins(1)",
+          "description": "A hand with the pinkie and ring finger curled in and thumb out, pointing down",
+          "materials": "Oil paint and acrylic on canvas",
+          "size": "16 x 20 inches"
+        },
+        {
+          "img": "/p59/images/IMG_7408.PNG",
+          "title": "Twins(2)",
+          "description": "A portrait of a boy with white eyes and devil horns. The background is purple and white",
+          "materials": "Oil paint and acrylic on canvas",
+          "size": "20 x 28 inches"
+        },
+        {
+          "img": "/p59/images/IMG_6245.jpg",
+          "title": "Twins(3)",
+          "description": "A hand with the pinkie and ring finger curled in and thumb out, pointing up",
+          "materials": "Oil paint and acrylic on canvas",
+          "size": "16 x 20 inches"
+        },
+        {
+          "img": "/p59/images/IMG_0858.png",
+          "title": "Deconstruction",
+          "description": "The lamb of god, shown as a figure with bones and skeleton of a sheep",
+          "materials": "Graphite on paper",
+          "size": "11 x 8 inches"
+        },
+        {
+          "img": "/p59/images/IMG_5739.png",
+          "title": "Movement",
+          "description": "A bird flapping its wings, overlapping different frames",
+          "materials": "Colored pencil on card paper",
+          "size": "11 x 8 inches"
+        },
+        {
+          "img": "/p59/images/IMG_7475.png",
+          "title": "Twins",
+          "description": "A photo of three paintings together, two hands, and a portrait between them",
+          "materials": "Oil paint and acrylic paint on canvas",
+          "size": "Three panels: 16 x 20, 20 x 28, 16 x 20 inches "
         }
       ]
     },
