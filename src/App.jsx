@@ -8,6 +8,7 @@ import GalleryPage from './components/pages/GalleryPage.jsx';
 import ArtPages from '@/data/ArtPages.json';
 import Contact from './components/pages/Contact.jsx';
 import GradientBlob from './components/GradientBlob.jsx';
+import NoMatch from './components/pages/NoMatch.jsx';
 
 function App() {
   const artData = ArtPages.collections;
@@ -27,6 +28,7 @@ function App() {
               element={<GalleryPage collection={collection} />} />
           })}
           <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<NoMatch />} />
           </Route>
       </Routes>
     </HashRouter>

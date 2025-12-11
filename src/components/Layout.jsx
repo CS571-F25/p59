@@ -17,7 +17,6 @@ function Layout() {
                         {artData.map((collection) => {
                             return <Nav.Link href={`#/gallery/${collection.slug}`} key={collection.collectionTitle}>{collection.collectionTitle}</Nav.Link>})}
                         <Nav.Link href="#/contact">Contact</Nav.Link>
-                       {/* <Nav.Link href="#/about">About Me</Nav.Link> */}
                     </Nav>
                 </Navbar.Collapse>
             </Container>
