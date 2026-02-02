@@ -23,10 +23,11 @@ function GalleryPage({collection}) {
   //I will only show the carousel once all the images are finished loading
   function handleLoad() {
     loadedCount++;
-    if (loadedCount === collection.artworks.length) {
+    if (loadedCount >= 1) {
       setLoading(false);
     }
   }
+    
 }, [collection.artworks]);
 
 
