@@ -34,7 +34,7 @@ const EmblaCarousel = (props) => {
         <div className="embla__container">
           {slides.map((slide, index) => (
             <div className="embla__slide" key={index}>
-              <Image src={slide.img} onClick={() => setShowDetails(slide)}/>
+              <Image fluid={true} src={slide.img} onClick={() => setShowDetails(slide)}/>
               {console.log(slide.index)}
             </div>
           ))}

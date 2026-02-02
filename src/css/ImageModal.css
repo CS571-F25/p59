@@ -8,8 +8,8 @@
   display: block;
   margin: 0 auto;
   object-fit: contain; 
-  max-width: 100vw;
-  max-height: 100vh;
+  max-width: 80vw;
+  max-height: 90vh; /*images overflow modal body at small sizes. poor fix, can still see inconsistent padding */
   
 }
 

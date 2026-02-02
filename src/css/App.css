@@ -26,6 +26,11 @@ svg {
 }
 
 .navbar {
-  /*background-color: rgba(76, 35, 8); */
-  max-height: fit-content;
+    max-height: fit-content;
 }
+
+@media (max-width: 576px) {
+  .navbar {
+    background-color: rgb(85, 35, 12);
+  }
+} 

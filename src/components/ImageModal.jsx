@@ -28,8 +28,8 @@ function ImageModal({art, onClose}) {
             {art.title}
           </Modal.Title>
         </Modal.Header>
-        <Modal.Body className="modal-text">
-            <Image src={art.img} alt={art.description} fluid />
+        <Modal.Body className="modal-text" fluid>
+            <Image src={art.img} alt={art.description} fluid={true} />
         </Modal.Body>
       </Modal>
 
