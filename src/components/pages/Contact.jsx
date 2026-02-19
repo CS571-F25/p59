@@ -39,9 +39,9 @@ export default function Contact() {
 
   return (
     <div className="container mt-4">
-      <h1 className="mb-4">Contact</h1>
+      <h1 className="mb-4" style={{color: "white"}}>Contact</h1>
 
-      <Form ref={formRef} onSubmit={handleSubmit}>
+      <Form style={{color: "white"}} ref={formRef} onSubmit={handleSubmit}>
         <Form.Group className="mb-3">
           <Form.Label htmlFor="email-input">Your Email</Form.Label>
           <Form.Control
