@@ -7,41 +7,18 @@ import Spinner from 'react-bootstrap/Spinner';
 const OPTIONS = {}
 
 function GalleryPage({collection}) {
-  const [loading, setLoading] = useState(true);
-
-
-  useEffect(() => {
-  let loadedCount = 0;
 
   collection.artworks.forEach(art => {
     const img = new Image();
     img.src = art.img;
-    img.onload = handleLoad;
-    img.onerror = handleLoad;
   });
-
-  //I will only show the carousel once all the images are finished loading
-  function handleLoad() {
-    loadedCount++;
-    if (loadedCount >= 1) {
-      setLoading(false);
-    }
-  }
-    
-}, [collection.artworks]);
-
 
   return (
   <Container fluid className="carousel-bg">
     <h1>{collection.collectionTitle}</h1>
-
-    {loading ? (
-        <Spinner animation="border" />
-    ) : (
       <div className="carousel-wrapper">
         <EmblaCarousel slides={collection.artworks} options={OPTIONS} />
       </div>
-    )}
   </Container>
 );
 
