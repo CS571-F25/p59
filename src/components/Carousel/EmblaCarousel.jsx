@@ -1,6 +1,5 @@
-import { useState} from 'react'
+import { useState, lazy, Suspense} from 'react'
 import Image from 'react-bootstrap/Image'
-import ImageModal from '../ImageModal.jsx'
 import {
   PrevButton,
   NextButton,
@@ -11,6 +10,8 @@ import {
   useSelectedSnapDisplay
 } from './EmblaCarouselSelectedSnapDisplay'
 import useEmblaCarousel from 'embla-carousel-react'
+
+const ImageModal = lazy(() => import('../ImageModal.jsx')); //for lazy loading modal, only needed when clicked
 
 const EmblaCarousel = (props) => {
   const { slides, options } = props
@@ -34,8 +35,7 @@ const EmblaCarousel = (props) => {
         <div className="embla__container">
           {slides.map((slide, index) => (
             <div className="embla__slide" key={index}>
-              <Image fluid={true} src={slide.img} alt={slide.description} onClick={() => setShowDetails(slide)}/>
-              {console.log(slide.index)}
+              <Image loading="lazy" fluid={true} src={slide.img} alt={slide.description} onClick={() => setShowDetails(slide)}/>
             </div>
           ))}
         </div>
@@ -55,8 +55,11 @@ const EmblaCarousel = (props) => {
     </section>
     
     {
-      showDetails &&
-      <ImageModal art={showDetails} onClose={() => setShowDetails(null)}/>
+    
+      <Suspense fallback={null}>
+        {showDetails && <ImageModal art={showDetails} onClose={() => setShowDetails(null)}/>}
+      </Suspense>
+
     }
     </>
   )
