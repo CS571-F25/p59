@@ -12,7 +12,7 @@ function GalleryPage({collection}) {
   <Container fluid className="carousel-bg">
     <h1>{collection.collectionTitle}</h1>
       <div className="carousel-wrapper">
-        <EmblaCarousel slides={collection.artworks} options={OPTIONS} />
+        <EmblaCarousel key={collection.slug} slides={collection.artworks} options={OPTIONS} />
       </div>
   </Container>
 );
