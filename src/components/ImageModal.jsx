@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import {Button, Image, Modal} from 'react-bootstrap';
 import '@/css/ImageModal.css';
+import { imgUrl } from '@/utils/cloudinary';
+
 
 
 function ImageModal({art, onClose}) {
@@ -29,7 +31,7 @@ function ImageModal({art, onClose}) {
           </Modal.Title>
         </Modal.Header>
         <Modal.Body className="modal-text" fluid>
-            <Image src={art.img} alt={art.description} fluid={true} />
+            <Image src={imgUrl(art.img)} alt={art.description} fluid={true} />
         </Modal.Body>
       </Modal>
 

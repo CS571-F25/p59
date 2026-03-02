@@ -1,5 +1,6 @@
 import { useState, lazy, Suspense} from 'react'
 import Image from 'react-bootstrap/Image'
+import { imgUrl } from '@/utils/cloudinary';
 import {
   PrevButton,
   NextButton,
@@ -35,7 +36,7 @@ const EmblaCarousel = (props) => {
         <div className="embla__container">
           {slides.map((slide, index) => (
             <div className="embla__slide" key={index}>
-              <Image loading="lazy" fluid={true} src={slide.img} alt={slide.description} onClick={() => setShowDetails(slide)}/>
+              <Image src={imgUrl(slide.img)} alt={slide.description} loading="lazy" fluid={true} onClick={() => setShowDetails(slide)}/>
             </div>
           ))}
         </div>
