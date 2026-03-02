@@ -8,11 +8,6 @@ const OPTIONS = {}
 
 function GalleryPage({collection}) {
 
-  collection.artworks.forEach(art => {
-    const img = new Image();
-    img.src = art.img;
-  });
-
   return (
   <Container fluid className="carousel-bg">
     <h1>{collection.collectionTitle}</h1>
